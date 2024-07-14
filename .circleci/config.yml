@@ -10,12 +10,6 @@ jobs:
       - node/install
       - checkout
       - run:
-          name: Install Specific NPM Version
-          command: npm install -g npm@10.8.2
-      - run:
-          name: Verify NPM Version
-          command: npm --version
-      - run:
           name: Front-End Install
           command: |
             npm run frontend:install
