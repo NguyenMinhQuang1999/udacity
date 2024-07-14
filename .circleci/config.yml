@@ -9,7 +9,7 @@ jobs:
     steps:
       - node/install
       - checkout
-       - run:
+      - run:
           name: Install Specific NPM Version
           command: npm install -g npm@10.8.2
       - run:
